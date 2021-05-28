@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
+
+#container {
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Big Shoulders Display', cursive;
+    align-items: center;
+    border-radius: 10px ;
+    color: hsl(0, 0%, 95%);
+    display: flex;
+    overflow: hidden;
+    margin: 6rem auto;
+
+}
+
+
+.cards {
+    padding: 60px;
+}
+
+.cards p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#box1 {
+    background: hsl(31, 77%, 52%);
+}
+
+#box2 {
+    background: hsl(184, 100%, 22%);
+}
+
+#box3 {
+    background: hsl(179, 100%, 13%);
+}
+
+
+h1{
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+
+
+.btn {
+    background: hsl(0, 0%, 95%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 130px;
+    padding: 10px;
+    margin: 30px 0;
+    outline: none;
+}
+
+.btt1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btt2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btt3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+}
+
+@media (max-width: 800px){
+    #container{
+        display: block;
+    }
+
+    .cards{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
